@@ -4,8 +4,8 @@
 * @author	Uriel Salazar
 * @date		March 2016
 * @details	Increment the day in Date class and print during each iteration.
-*			Testing the following conditions: Incrementig into the next month &
-*			incrementing into the next year.
+*		Testing the following conditions: Incrementig into the next month &
+*		incrementing into the next year.
 *******************************************************************************/
 
 // system libraries
