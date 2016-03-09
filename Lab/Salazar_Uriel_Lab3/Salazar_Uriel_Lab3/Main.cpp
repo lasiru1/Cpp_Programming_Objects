@@ -4,8 +4,8 @@
 * @author	Uriel Salazar
 * @date		March 2016
 * @details	Increment the day in Date class and print during each iteration.
-			Testing the following conditions: Incrementig into the next month &
-			incrementing into the next year.
+*			Testing the following conditions: Incrementig into the next month &
+*			incrementing into the next year.
 *******************************************************************************/
 
 // system libraries
@@ -93,7 +93,7 @@ int main()
 /***************************************************************************//**
 * @fn		void clearScreen()	
 * @brief	Writes a space character to every cell on the screen and returns the
-			cursor to (0, 0)
+*			cursor to (0, 0)
 * @param	none
 * @return	void
 *******************************************************************************/
