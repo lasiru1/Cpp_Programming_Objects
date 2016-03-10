@@ -3,7 +3,7 @@
 * @brief	Lab #3 (Enhancing class Date)
 * @author	Uriel Salazar
 * @date		March 2016
-* @details	Date class member-function definitions.
+* @details	Date class member-function definitions
 *******************************************************************************/
 
 // system libraries

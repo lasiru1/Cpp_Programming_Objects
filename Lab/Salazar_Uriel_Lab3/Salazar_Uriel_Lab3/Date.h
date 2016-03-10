@@ -3,7 +3,7 @@
 * @brief	Lab #3 (Enhancing class Date)
 * @author	Uriel Salazar
 * @date		March 2016
-* @details	Date class declaration. Member-functions are defined in Date.cpp
+* @details	Date class declarations, member-functions are defined in Date.cpp
 *******************************************************************************/
 
 // prevent multiple inclusions of header
