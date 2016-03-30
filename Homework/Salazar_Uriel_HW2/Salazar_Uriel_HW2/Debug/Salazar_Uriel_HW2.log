@@ -1,0 +1,5 @@
+﻿  Rational.cpp
+  Main.cpp
+  Generating Code...
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\homework\salazar_uriel_hw2\salazar_uriel_hw2\rational.cpp(84): warning C4715: 'Rational::findGCD': not all control paths return a value
+  Salazar_Uriel_HW2.vcxproj -> C:\Users\salaz_000\Desktop\Salazar_Uriel_CSC17A_32232\Homework\Salazar_Uriel_HW2\Debug\Salazar_Uriel_HW2.exe
