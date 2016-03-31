@@ -1,30 +1,39 @@
-// header file for MailingLabel class
+/***************************************************************************//**
+* @file		MailingLabel.h
+* @brief	Lab#4 (Handed out)
+* @author	Uriel Salazar
+* @date		March 2016
+* @details	MailingLabel declarations, definitions located in MailingLabel.cpp
+*******************************************************************************/
 
-// prevent multiple inclusions of header
-#ifndef	MAILINGLABEL_H
-#define	MAILINGLABEL_H
+#ifndef MAILINGLABEL_H
+#define MAILINGLABEL_H
 
-// system libraries
-#include <iostream>
-#include <string>
-
-// class "MailingLabel" definition
+// class definition for "MailingLabel"
 class MailingLabel
 {
-	friend std::ostream &operator << (std::ostream &, const MailingLabel &);	// outputting 
-
 public:
-	std::string senderName;
-	std::string firstName;
-	std::string firstName;
-	std::string firstName;
-	std::string firstName;
-	std::string firstName;
+	MailingLabel();	// default constructor
+	MailingLabel(std::string, std::string, std::string, std::string,
+					std::string, std::string, std::string, std::string,
+					std::string);	// constructor
 
+	// friend declarations
+	friend std::ostream &operator<<(
+		std::ostream &, const MailingLabel &);	// outputting all info
+	friend std::istream &operator>>(
+		std::istream &, MailingLabel &);	// inputting all info
 
 private:
-
-
+	std::string	firstName;
+	std::string	lastName;
+	std::string	buildingNumber;
+	std::string	streetName;
+	std::string	streetSuffix;
+	std::string	city;
+	std::string	state;
+	std::string	zip;
+	std::string	zipExtension;
 };
 
 #endif

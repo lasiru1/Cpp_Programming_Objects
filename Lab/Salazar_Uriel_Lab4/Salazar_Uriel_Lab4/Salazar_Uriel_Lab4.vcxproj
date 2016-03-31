@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BEE26AD4-2C6B-43C3-AAF8-6FE25C98F48E}</ProjectGuid>
+    <ProjectGuid>{04F5CE16-C153-43FB-88FA-9458212E946C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Salazar_Uriel_Lab4</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
@@ -146,6 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="Lab4_Problem.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MailingLabel.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MailingLabel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
