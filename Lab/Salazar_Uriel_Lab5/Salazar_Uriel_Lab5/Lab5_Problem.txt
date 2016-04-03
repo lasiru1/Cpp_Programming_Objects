@@ -1,0 +1,20 @@
+Lab 5
+
+You will create a program that will demonstrate inheritance.
+
+Create a base class called HousePet. A HousePet should have a name, species,
+height, and weight.
+
+It should also contain methods to set and get those values. The constructor
+should initialize those values.
+
+You will create two derived classes using HousePet as a base class. These
+classes are up to you, but should be named according to what type of house pet
+it is (ex: cat, dog, fish, house elf, etc.).
+
+Work under the idea that you’re trying to define classes for a house pet.
+Include data members and methods that make sense for your derived classes,
+including setters and getters.
+
+Create a driver program that creates your house pets and tells the user about
+them.
