@@ -72,10 +72,13 @@ public:
 	double			getWeight() const;
 
 	// calculateCost
-	double			calculateCost(double, double);
+	double			calculateCost(double);
 
-	// validateInt
-	double			validateInt(double);
+	// overload insertion operator
+	friend std::ostream &operator<<(std::ostream &, const Package &);
+
+protected:
+	double			costPerOunce = 0.0594375;
 
 private:
 	std::string		senderName;
@@ -89,7 +92,6 @@ private:
 	std::string		recipientState;
 	unsigned int	recipientZip;
 	double			weight;
-	double			costPerOunce = 0.0594375;
 };
 
 #endif

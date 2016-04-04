@@ -1,0 +1,8 @@
+﻿  Main.cpp
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\homework\salazar_uriel_hw4\salazar_uriel_hw4\main.cpp(42): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\homework\salazar_uriel_hw4\salazar_uriel_hw4\main.cpp(53): warning C4244: '=': conversion from 'double' to 'unsigned int', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  TwoDayPackage.cpp
+  OvernightPackage.cpp
+  Salazar_Uriel_HW4.vcxproj -> C:\Users\salaz_000\Desktop\Salazar_Uriel_CSC17A_32232\Homework\Salazar_Uriel_HW4\Debug\Salazar_Uriel_HW4.exe

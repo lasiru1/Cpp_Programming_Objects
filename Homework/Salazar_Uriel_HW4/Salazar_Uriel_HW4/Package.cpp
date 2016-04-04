@@ -7,7 +7,6 @@
 *******************************************************************************/
 
 // system libraries
-#include <iostream>
 #include <stdexcept>
 
 // user libraries
@@ -99,10 +98,11 @@ std::string Package::getSenderState() const
 // set function for senderZip
 void Package::setSenderZip(unsigned int sz)
 {
-	if (!(std::cin >> sz) || sz < 9999)
+	if (sz <= 9999 || sz >= 99999)
 	{
+		senderZip = 12345;
 		throw std::invalid_argument(
-			"zip code does not match xxxxx format.\nDefault zip code set.");
+			"Sender zip code is invalid.\nDefault zip code set.");
 	}
 	senderZip = sz;
 }
@@ -164,6 +164,12 @@ std::string Package::getRecipientState() const
 //  set function for recipientZip
 void Package::setRecipientZip(unsigned int rz)
 {
+	if (rz <= 9999 || rz >= 99999)
+	{
+		senderZip = 12345;
+		throw std::invalid_argument(
+			"Recipient zip code is invalid.\nDefault zip code set.");
+	}
 	recipientZip = rz;
 }
 
@@ -186,15 +192,27 @@ double Package::getWeight() const
 }
 
 // calculateCost
-double Package::calculateCost(double w, double ouncePrice)
+double Package::calculateCost(double w)
 {
-	double cost = w * ouncePrice;
+	double cost = w * costPerOunce;
 
 	return cost;
 }
 
-// validateInt
-double validateInt(double num)
+// outputting all info
+std::ostream &operator<<(std::ostream &output, const Package &stdPkg)
 {
-	
+	output << "To:\n";
+	output << "\n" << stdPkg.recipientName;
+	output << "\n" << stdPkg.recipientAddress;
+	output << "\n" << stdPkg.recipientCity << " " << stdPkg.recipientState
+		   << " " << stdPkg.recipientZip;
+	output << "\n\nFrom:\n";
+	output << "\n" << stdPkg.senderName;
+	output << "\n" << stdPkg.senderAddress;
+	output << "\n" << stdPkg.senderCity << " " << stdPkg.senderState
+		   << " " << stdPkg.senderZip;
+	output << "\n\nWEIGHT: " << stdPkg.weight << " oz";
+
+	return output;
 }

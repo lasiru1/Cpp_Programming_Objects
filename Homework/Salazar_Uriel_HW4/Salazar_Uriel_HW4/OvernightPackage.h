@@ -11,11 +11,32 @@
 #define OVERNIGHTPACKAGE_H
 
 // system libraries
+#include <string>
 
+// user libraries
+#include "Package.h"
 
+// declare class "Package"
+class OvernightPackage : public Package
+{
+public:
+	// constructor
+					OvernightPackage(const std::string &, const std::string &,
+									 const std::string &, const std::string &,
+									 unsigned int, const std::string &,
+									 const std::string &, const std::string &,
+									 const std::string &, unsigned int, double,
+									 double = 0.25);
 
+	// feePerOunce; setter/getter
+	void			setFeePerOunce(double);
+	double			getFeePerOunce() const;
 
+	// calculateCost
+	double			calculateCost(double);
 
-
+private:
+	double			feePerOunce;
+};
 
 #endif
