@@ -1,9 +1,9 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_CheckingAccount.cpp
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Member-function definitions for CheckingAccount class
+* @file     Salazar_Uriel_CheckingAccount.cpp
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Member-function definitions for CheckingAccount class
 *******************************************************************************/
 
 // system libraries

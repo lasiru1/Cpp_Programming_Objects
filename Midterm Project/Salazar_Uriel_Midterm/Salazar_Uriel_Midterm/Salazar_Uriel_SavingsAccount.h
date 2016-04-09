@@ -1,9 +1,9 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_SavingsAccount.h
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Member-function declarations for SavingsAccount class
+* @file     Salazar_Uriel_SavingsAccount.h
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Member-function declarations for SavingsAccount class
 *******************************************************************************/
 
 // prevent multiple inclusions
@@ -26,20 +26,20 @@ public:
                    unsigned short = 0, float = 1.04);
 
     // interestPrcnt; setter/getter
-    void	setInterestPrcnt(float);
-    float	getInterestPrcnt() const;
+    void    setInterestPrcnt(float);
+    float   getInterestPrcnt() const;
 
     // member function to calculate savings
-    void	calculateSavings();
+    void    calculateSavings();
 
     // member function to withdraw
-    void	debit(double);
+    void    debit(double);
 
     // overload insertion operator
     friend std::ostream &operator<<(std::ostream &, const SavingsAccount &);
 
 private:
-    float	interestPrcnt;
+    float   interestPrcnt;
 };
 
 #endif

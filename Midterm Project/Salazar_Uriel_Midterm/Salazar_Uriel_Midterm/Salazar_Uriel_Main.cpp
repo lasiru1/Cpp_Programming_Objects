@@ -1,10 +1,10 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_Main.cpp
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Create a bank account system using derived classes
-* @include	Salazar_Uriel_Main.cpp, Salazar_Uriel_Account.h,
+* @file     Salazar_Uriel_Main.cpp
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Create a bank account system using derived classes
+* @include  Salazar_Uriel_Main.cpp, Salazar_Uriel_Account.h,
             Salazar_Uriel_Account.cpp, Salazar_Uriel_SavingsAccount.h,
             Salazar_Uriel_SavingsAccount.cpp, Salazar_Uriel_CheckingAccount.h,
             CheckingAccount.cpp
@@ -21,24 +21,24 @@ using namespace std;
 #include "Salazar_Uriel_CheckingAccount.h"
 
 // function prototypes
-void	displayMenu();
-double	validateNum();
+void    displayMenu();
+double  validateNum();
 
 
 // begin execution
 int main()
 {
     // declare variables
-    string				fName, lName;
-    double				savingsAmount = 0, checkingAmount = 0;
-    double				debit, credit;
-    unsigned long		saveRout = 0, checkRout = 0;
-    unsigned long long	saveAccnt = 0, checkAccnt = 0;
-    bool				savingsLock = false;
-    bool				checkingLock = false;
-    bool				exit = false;
-    unsigned short		choice;
-    unsigned short		account;
+    string              fName, lName;
+    double              savingsAmount = 0, checkingAmount = 0;
+    double              debit, credit;
+    unsigned long       saveRout = 0, checkRout = 0;
+    unsigned long long  saveAccnt = 0, checkAccnt = 0;
+    bool                savingsLock = false;
+    bool                checkingLock = false;
+    bool                exit = false;
+    unsigned short      choice;
+    unsigned short      account;
 
     // declare objects
     SavingsAccount mySavingsAccount(
@@ -167,7 +167,7 @@ int main()
             {
                 cerr << "\a\nError: You have entered an invalid number."
                      << endl;
-            }		
+            }       
             break;
         case 4:
             // prompt user for input
@@ -220,7 +220,7 @@ int main()
             {
                 cerr << "\a\nError: You have entered an invalid number."
                      << endl;
-            }	
+            }   
             break;
         case 5:
             // prompt user for input
@@ -251,7 +251,7 @@ int main()
             {
                 cerr << "\a\nError: You have entered an invalid number."
                      << endl;
-            }	
+            }   
             break;
         case 6:
             // prompt user for input
@@ -286,7 +286,7 @@ int main()
             {
                 cerr << "\a\nError: You have entered an invalid number."
                      << endl;
-            }	
+            }   
             break;
         case 7:
             exit = true;
@@ -310,15 +310,15 @@ int main()
 }
 
 /***************************************************************************//**
-* @fn		void displayMenu()
-* @brief	Prints the main menu for the switch statement within the program
-* @param	none
-* @return	void
+* @fn       void displayMenu()
+* @brief    Prints the main menu for the switch statement within the program
+* @param    none
+* @return   void
 *******************************************************************************/
 void displayMenu()
 {
     cout << endl;
-    cout <<	"************************************\n"
+    cout << "************************************\n"
             "             MAIN MENU              \n"
             "************************************\n"
             "1. Open a Savings account\n"
@@ -332,16 +332,16 @@ void displayMenu()
 }
 
 /***************************************************************************//**
-* @fn		double validateNum()
-* @brief	Tests the input for any characters, negative values, etc.
-* @param	none
-* @return	number, a double
+* @fn       double validateNum()
+* @brief    Tests the input for any characters, negative values, etc.
+* @param    none
+* @return   number, a double
 *******************************************************************************/
 double validateNum()
 {
     // declare variables
-    bool	pass = false;
-    double	number = 0;
+    bool    pass = false;
+    double  number = 0;
 
     // loop until the extraction operator yields a nonnegative integer
     do

@@ -1,9 +1,9 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_Account.cpp
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Member-function definitions for Account class
+* @file     Salazar_Uriel_Account.cpp
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Member-function definitions for Account class
 *******************************************************************************/
 
 // system libraries
@@ -15,13 +15,13 @@
 // default constructor
 Account::Account()
 {
-    firstName		= "Joe";
-    lastName		= "Customer";
-    routingNumber	= 123456789;
-    accountNumber	= 12345678901234;
-    balance			= 0;
-    creditCount		= 0;
-    debitCount		= 0;
+    firstName       = "Joe";
+    lastName        = "Customer";
+    routingNumber   = 123456789;
+    accountNumber   = 12345678901234;
+    balance         = 0;
+    creditCount     = 0;
+    debitCount      = 0;
 }
 
 // constructor
@@ -29,13 +29,13 @@ Account::Account(const std::string &first, const std::string &last,
                  unsigned long rNum, unsigned long long aNum, double bal,
                  unsigned short cCount = 0, unsigned short dCount = 0)
 {
-    firstName		= first;
-    lastName		= last;
-    routingNumber	= rNum;
-    accountNumber	= aNum;
-    balance			= bal;
-    creditCount		= cCount;
-    debitCount		= dCount;
+    firstName       = first;
+    lastName        = last;
+    routingNumber   = rNum;
+    accountNumber   = aNum;
+    balance         = bal;
+    creditCount     = cCount;
+    debitCount      = dCount;
 }
 
 // firstName; setter/getter

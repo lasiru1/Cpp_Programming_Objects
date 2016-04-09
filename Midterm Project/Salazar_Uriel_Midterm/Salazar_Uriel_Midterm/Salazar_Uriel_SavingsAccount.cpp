@@ -1,9 +1,9 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_SavingsAccount.cpp
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Member-function definitions for SavingsAccount class
+* @file     Salazar_Uriel_SavingsAccount.cpp
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Member-function definitions for SavingsAccount class
 *******************************************************************************/
 
 // system libraries

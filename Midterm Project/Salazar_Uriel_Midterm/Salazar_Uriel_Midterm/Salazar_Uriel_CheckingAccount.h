@@ -1,9 +1,9 @@
 /***************************************************************************//**
-* @file		Salazar_Uriel_CheckingAccount.h
-* @brief	MIDTERM
-* @author	Uriel Salazar
-* @date		April 2016
-* @details	Member-function declarations for CheckingAccount class
+* @file     Salazar_Uriel_CheckingAccount.h
+* @brief    MIDTERM
+* @author   Uriel Salazar
+* @date     April 2016
+* @details  Member-function declarations for CheckingAccount class
 *******************************************************************************/
 
 // prevent multiple inclusions
@@ -26,25 +26,25 @@ public:
                     unsigned short = 0, unsigned short = 35);
 
     // overdraftFee; setter/getter
-    void			setOverdraftFee(unsigned short);
-    unsigned short	getOverdraftFee() const;
+    void            setOverdraftFee(unsigned short);
+    unsigned short  getOverdraftFee() const;
 
     // balance; setter/getter
-    void			setBalance(double);
-    double			getBalance() const;
+    void            setBalance(double);
+    double          getBalance() const;
 
     // member function to deposit
-    void			credit(double);
+    void            credit(double);
 
     // member function to withdraw
-    void			debit(double);
+    void            debit(double);
 
     // overload insertion operator
     friend std::ostream &operator<<(std::ostream &, const CheckingAccount &);
 
 private:
-    double			balance;
-    unsigned short	overdraftFee;
+    double          balance;
+    unsigned short  overdraftFee;
 };
 
 #endif
