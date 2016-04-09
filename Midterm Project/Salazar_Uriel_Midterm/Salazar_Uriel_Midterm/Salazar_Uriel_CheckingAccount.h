@@ -20,31 +20,31 @@
 class CheckingAccount : public Account
 {
 public:
-	// constructor
-	CheckingAccount(const std::string &, const std::string &, unsigned long,
-				    unsigned long long, double, unsigned short = 0,
-					unsigned short = 0, unsigned short = 35);
+    // constructor
+    CheckingAccount(const std::string &, const std::string &, unsigned long,
+                    unsigned long long, double, unsigned short = 0,
+                    unsigned short = 0, unsigned short = 35);
 
-	// overdraftFee; setter/getter
-	void			setOverdraftFee(unsigned short);
-	unsigned short	getOverdraftFee() const;
+    // overdraftFee; setter/getter
+    void			setOverdraftFee(unsigned short);
+    unsigned short	getOverdraftFee() const;
 
-	// balance; setter/getter
-	void			setBalance(double);
-	double			getBalance() const;
+    // balance; setter/getter
+    void			setBalance(double);
+    double			getBalance() const;
 
-	// member function to deposit
-	void			credit(double);
+    // member function to deposit
+    void			credit(double);
 
-	// member function to withdraw
-	void			debit(double);
+    // member function to withdraw
+    void			debit(double);
 
-	// overload insertion operator
-	friend std::ostream &operator<<(std::ostream &, const CheckingAccount &);
+    // overload insertion operator
+    friend std::ostream &operator<<(std::ostream &, const CheckingAccount &);
 
 private:
-	double			balance;
-	unsigned short	overdraftFee;
+    double			balance;
+    unsigned short	overdraftFee;
 };
 
 #endif

@@ -17,55 +17,55 @@
 class Account
 {
 public:
-	// default constructor
-	Account();
+    // default constructor
+    Account();
 
-	// constructor
-	Account(const std::string &, const std::string &, unsigned long,
-			unsigned long long, double, unsigned short, unsigned short);
+    // constructor
+    Account(const std::string &, const std::string &, unsigned long,
+            unsigned long long, double, unsigned short, unsigned short);
 
-	// firstName; setter/getter
-	void				setFirstName(const std::string &);
-	std::string			getFirstName() const;
+    // firstName; setter/getter
+    void				setFirstName(const std::string &);
+    std::string			getFirstName() const;
 
-	// lastName; setter/getter
-	void				setLastName(const std::string &);
-	std::string			getLastName() const;
+    // lastName; setter/getter
+    void				setLastName(const std::string &);
+    std::string			getLastName() const;
 
-	// routingNumber; setter/getter
-	void				setRoutingNumber(unsigned long);
-	unsigned long		getRoutingNumber() const;
+    // routingNumber; setter/getter
+    void				setRoutingNumber(unsigned long);
+    unsigned long		getRoutingNumber() const;
 
-	// accountNumber; setter/getter
-	void				setAccountNumber(unsigned long long);
-	unsigned long long	getAccountNumber() const;
+    // accountNumber; setter/getter
+    void				setAccountNumber(unsigned long long);
+    unsigned long long	getAccountNumber() const;
 
-	// balance; setter/getter
-	void				setBalance(double);
-	double				getBalance() const;
+    // balance; setter/getter
+    void				setBalance(double);
+    double				getBalance() const;
 
-	// creditCount; setter/getter
-	void				setCreditCount(unsigned short);
-	unsigned short		getCreditCount() const;
+    // creditCount; setter/getter
+    void				setCreditCount(unsigned short);
+    unsigned short		getCreditCount() const;
 
-	// debitCount; setter/getter
-	void				setDebitCount(unsigned short);
-	unsigned short		getDebitCount() const;
+    // debitCount; setter/getter
+    void				setDebitCount(unsigned short);
+    unsigned short		getDebitCount() const;
 
-	// member function to deposit
-	void				credit(double);
+    // member function to deposit
+    void				credit(double);
 
-	// member function to withdraw
-	void				debit(double);
+    // member function to withdraw
+    void				debit(double);
 
 protected:
-	std::string			firstName;
-	std::string			lastName;
-	unsigned long		routingNumber;
-	unsigned long long	accountNumber;
-	double				balance;
-	unsigned short		creditCount;
-	unsigned short		debitCount;
+    std::string			firstName;
+    std::string			lastName;
+    unsigned long		routingNumber;
+    unsigned long long	accountNumber;
+    double				balance;
+    unsigned short		creditCount;
+    unsigned short		debitCount;
 };
 
 #endif
