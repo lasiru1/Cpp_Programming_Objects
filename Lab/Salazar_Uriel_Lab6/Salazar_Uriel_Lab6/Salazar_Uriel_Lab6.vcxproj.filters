@@ -51,4 +51,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Lab6_Problem.txt" />
+  </ItemGroup>
 </Project>
