@@ -1,0 +1,8 @@
+Lab 8 - Copying a List in Reverse Order
+
+Write a program that creates a linked list object of 10 characters and
+creates a second list object containing a copy of the first list, but
+in reverse order.
+
+(Once the user has stated that they are done, print the list in
+reverse order.)
