@@ -1,0 +1,11 @@
+﻿  SALAZAR_URIEL_Main.cpp
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(68): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(72): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(118): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(121): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(143): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(150): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(158): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(166): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\final project\salazar_uriel_final\salazar_uriel_final\salazar_uriel_main.cpp(173): warning C4305: 'argument': truncation from 'double' to 'float'
+  SALAZAR_URIEL_FINAL.vcxproj -> C:\Users\salaz_000\Desktop\Salazar_Uriel_CSC17A_32232\Final Project\SALAZAR_URIEL_FINAL\Debug\SALAZAR_URIEL_FINAL.exe

@@ -1,5 +1,5 @@
-# Salazar_Uriel_CSC17A_32232
-Programming Concepts and Methodology II: C++
+# Programming Concepts and Methodology II: C++
+CIS-17A Section: 32232
 
 Riverside City College
 Spring 2016
