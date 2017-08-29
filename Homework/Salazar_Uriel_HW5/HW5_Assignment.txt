@@ -1,0 +1,22 @@
+Homework 5
+
+You will create a program that will demonstrate the use of containers.
+
+Expand on the Enemy_Polymorphism_Example code to create a set of classes for a
+player's party.
+
+Create at least three character types that override a base class's virtual
+function(s).
+
+In Main, work with this new hierarchy of classes to create a container of
+pointers of the base class, then call into the overriding functions.
+
+EXTRA CREDIT: 10 points
+
+When you have generated both an enemy party and a player party, have them fight
+until one party is victorious.
+
+Use polymorphism to control each party's actions.
+This is free form, so any implementation that runs and works will get credit.
+
+

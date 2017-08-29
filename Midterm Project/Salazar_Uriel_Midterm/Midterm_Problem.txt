@@ -1,0 +1,67 @@
+Midterm
+
+Create a program that fulfills the requirements of the following prompt:
+
+This program will create a bank account system where the user will create both a
+savings and a checking account.
+
+Users should be able to interact with this account in the following ways: 
+
+Deposit to their account some amount of funds
+Withdraw funds from their account
+Check current balance of the account
+Check how many deposits and withdrawals that account has had since its creation
+ 
+You be creating a base class called Account and derived classes SavingsAccount
+and CheckingAccount.
+
+You will be responsible for figuring out how to split up the data members and
+functions appropriately between these classes.
+
+Account must hold data members for: 
+
+Account holder’s first and last name
+Bank routing number
+Account number
+Balance
+Transaction history 
+
+
+Savings accounts allow you to make interest on the money they hold. Thus,
+savings accounts need to be able to: 
+
+Hold some percentage for interest
+Add the amount of interest earned to the balance of the account
+NEVER allow the user to withdraw an amount larger than what the account holds
+Overloaded operator that allows you to output the entire account’s information
+
+
+Checking accounts must be able to: 
+
+Be opened with $500 or more
+ABLE to overdraft the account to up to $300 over the account’s balance
+Apply an overdraft fee of $35 if overdraft occurs
+Overloaded operator that allows you to output the entire account’s information
+
+
+The program should be driven by a menu that allows the user to perform the
+following actions:
+
+Open one new savings account
+Open one new checking account
+Deposit funds to an account
+Withdraw funds from an account
+View an account’s current balance
+View an account’s amount of deposits and withdrawals
+Closes out the program
+
+
+Your program MUST contain:
+
+The three classes mentioned
+Throw, Try, and Catch for when an account is made and when the account is asked
+to deposit or withdraw
+Protections that would never allow a user to deposit negative funds or withdraw
+negative funds
+Member functions that allow you to access each data member correctly
+A constructor for each class 
