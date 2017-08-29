@@ -1,4 +1,0 @@
-﻿  Main.cpp
-c:\visual studio projects\csc-17a\salazar_uriel_hw1\salazar_uriel_hw1\employee.h(24): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\visual studio projects\csc-17a\salazar_uriel_hw1\salazar_uriel_hw1\main.cpp(21): warning C4101: 'raise': unreferenced local variable
-  Salazar_Uriel_HW1.vcxproj -> C:\Visual Studio Projects\CSC-17A\Salazar_Uriel_HW1\Debug\Salazar_Uriel_HW1.exe

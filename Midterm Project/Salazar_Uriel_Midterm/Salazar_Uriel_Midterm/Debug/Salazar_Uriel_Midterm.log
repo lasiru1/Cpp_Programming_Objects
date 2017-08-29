@@ -1,9 +1,0 @@
-﻿  Salazar_Uriel_Main.cpp
-c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\midterm project\salazar_uriel_midterm\salazar_uriel_midterm\salazar_uriel_main.cpp(59): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
-c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\midterm project\salazar_uriel_midterm\salazar_uriel_midterm\salazar_uriel_main.cpp(141): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
-c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\midterm project\salazar_uriel_midterm\salazar_uriel_midterm\salazar_uriel_main.cpp(177): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
-c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\midterm project\salazar_uriel_midterm\salazar_uriel_midterm\salazar_uriel_main.cpp(230): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
-c:\users\salaz_000\desktop\salazar_uriel_csc17a_32232\midterm project\salazar_uriel_midterm\salazar_uriel_midterm\salazar_uriel_main.cpp(261): warning C4244: '=': conversion from 'double' to 'unsigned short', possible loss of data
-  Salazar_Uriel_CheckingAccount.cpp
-  Generating Code...
-  Salazar_Uriel_Midterm.vcxproj -> C:\Users\salaz_000\Desktop\Salazar_Uriel_CSC17A_32232\Midterm Project\Salazar_Uriel_Midterm\Debug\Salazar_Uriel_Midterm.exe
